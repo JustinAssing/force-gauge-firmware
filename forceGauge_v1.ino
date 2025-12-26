@@ -15,8 +15,8 @@ float calibration_factor = 6636.36;   // positive for tension
 float forceOffset = 0.0;
 
 /* ---------------- BLE UUIDs ---------------- */
-#define SERVICE_UUID        "38e5fea4-d56b-4178-9a80-015dc896a0d1"
-#define FORCE_CHAR_UUID     "55d0591b-4bdd-4207-81f4-d7d1753de97f"
+#define SERVICE_UUID        "38e5fea4-d56b-4178-9a80-015dc896a0d1" // This needs to match the iOS app
+#define FORCE_CHAR_UUID     "55d0591b-4bdd-4207-81f4-d7d1753de97f" // This needs to match the iOS app
 
 BLECharacteristic *forceCharacteristic;
 bool deviceConnected = false;
