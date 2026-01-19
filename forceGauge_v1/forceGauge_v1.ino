@@ -11,7 +11,7 @@
 HX711 scale;
 
 // Update after calibration
-float calibration_factor = 6636.36;   // positive for tension
+float calibration_factor = 6555;   // positive for tension
 float forceOffset = 0.0;
 
 /* ---------------- BLE UUIDs ---------------- */
